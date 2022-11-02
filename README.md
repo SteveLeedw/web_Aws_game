@@ -1,15 +1,10 @@
-# CSE330
-Steve Lee - 487974 - steveleeldw
+# web_game
 
 I would like to make gaming web site so I focused on making various games by Javascript. and then I thought everyone should play game freely, so my login and registration part will be that is give us email information and username and simple password. because if I update new game I need to send brands new game information mail to players. and mysql and php are working and connected each other. So if user or player register website, they can move web site to main page Automatically.
 
 In addition, there are a total of 6 games. first is slot game that was Warming Up game and Casino Craps, Tic Tac Toe, Bingo, Poketmon Concentration ,Breakwall. I think breakwall and poketmon Concentration are the best fun games becuase I tried for well made. But, the other game  will be fun game too. Also, two people or players can play games.
 
-
-*I could not get some Rubric about my project because how or who didn't give me my project's Rubric.Therefore, I write down here why I would like to make this projects and what was my propose.
-
 playing games : http://ec2-3-138-100-232.us-east-2.compute.amazonaws.com/~steve/final/home.html
-
 
 user information part: http://ec2-3-138-100-232.us-east-2.compute.amazonaws.com/~steve/final/home.php
 
