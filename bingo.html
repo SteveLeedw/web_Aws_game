@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Playing Game</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Playing Game</h1>
+        <h2>Bingo</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="craps.html">Casino Craps</a></li>
+            <li><a href="tictactoe.html">Tic Tac Toe</a></li>
+            <li><a href="bingo.html">Bingo</a></li>
+            <li><a href="concentration.html">Concentration</a></li>
+            <li><a href="breakwall.html">Breakwall</a></li>
+        </ul>
+    </nav>
+    <main>
+        <button>Generate New Card</button>
+        <button>Caller</button>
+        <table id="bingo">
+            <tr>
+                <th>B</th>
+                <th>I</th>
+                <th>N</th>
+                <th>G</th>
+                <th>O</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td id="free">FREE</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <address>Steve Lee web games</address>
+    </footer>
+<script src="script.js"></script>
+<script>
+
+document.addEventListener("DOMContentLoaded", bingo.init);
+
+</script>
+</body>
+</html>

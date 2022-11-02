@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Playing Game</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<title>Javascript Slots</title>
+</head>
+
+<body>
+    <header>
+        <h1>ENJOYING YOUR HAPPY TIME</h1>
+        <h2>Let's play more fun games</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="craps.html">Casino Craps</a></li>
+            <li><a href="tictactoe.html">Tic Tac Toe</a></li>
+            <li><a href="bingo.html">Bingo</a></li>
+            <li><a href="concentration.html">Concentration</a></li>
+            <li><a href="breakwall.html">Breakwall</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Warming Up Slot Game</h1>
+
+    <main>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm slot">
+                <div id="slotOne">
+                </div>
+              </div>
+              <div class="col-sm slot">
+                <div id="slotTwo">
+                </div>
+              </div>
+              <div class="col-sm slot">
+                <div id="slotThree">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm" id="stats">
+                <p><strong>Credits: </strong><span id="credits"></span></p>
+                <p><strong>Plays: </strong><span id="plays"></span></p>
+                <p><strong>Wins: </strong><span id="wins"></span></p>
+              <button class="btn btn-primary" id="play">
+                PLAY
+              </button>
+                 <form>
+                  <div id="userautoplay"> 
+            <label for="autoplaying">This is Auto playing your turn how many times you want?</label>
+          <input type="number" id="auto" name="auto"
+                 min="1"  oninput="Automaticplayingsystem()">
+                  </div>
+              </div>
+            </div>
+    
+    </main>
+
+    <script type="text/javascript" src="script3.js"></script>
+    <footer>
+        <address>Steve &copy; GAMING$$CP</address>
+        <p>If you like this web site, we can send game information mail for every brands new games, so you can give us your samll infromation here</p>
+        <button type="button" onclick="window.open('home.php');">Registration</button>
+    </footer>
+</body>
+</html>
+

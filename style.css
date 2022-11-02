@@ -1,0 +1,390 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+}
+header {
+    text-align: center;
+    background-color: #E0E0E0;
+    margin: 0;
+    padding-top: 10px;
+    color: #7A7A7A;
+}
+header h1 {
+    margin: 20px 0 10px 0;
+}
+h1 {
+    text-align:center;
+}
+header h2 {
+    margin: 0;
+    letter-spacing: 1px;
+}
+nav {
+    background-color: #E0E0E0;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    display: inherit;
+}
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+    padding: 5px;
+    background-color: #A4A4A4;
+    border-radius: 5px;
+}
+nav li:hover, a:hover, .current, .current a {
+    background-color: #C2C2C2;
+    color: #999999;
+}
+main {
+    text-align: center;
+}
+footer {
+    background-color: #E0E0E0;
+    text-align: center;
+    color: #7A7A7A;
+    padding: 20px;
+    margin-top: 20px;
+}
+button {
+    padding: 20px 20px;
+    border: 1px solid #D1D1D1;
+    background-color: #E0E0E0;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+div button {
+    min-width: 90%;
+    margin: 5px 0;
+}
+
+button:active {
+    background-color: #C2C2C2;
+    outline: none;
+    border-color: white;
+    color: white;
+}
+
+button:focus {
+    outline: none;
+}
+.container {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box {
+    border: 2px solid #C9C9C9;
+    float: left;
+    margin: 20px 5px;
+    min-height: 370px;
+    width: 20%;
+    padding: 10px;
+}
+
+.dice {
+    background-color: #FF6347;
+    width: 90%;
+    max-height: 150px;
+    margin: 10px auto;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 5px 5px 3px #AFA4A0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.dice p {
+    margin: 0;
+    padding: 20px;
+    color: white;
+    font-size: 8vw;
+}
+
+#total {
+    font-size: 15vw;
+    margin: 20px 0;
+}
+table#tictactoe, 
+#tictactoe tr, 
+#tictactoe td {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#tictactoe tr, 
+#tictactoe td {
+    border: 1px solid #0000FF;
+}
+
+#tictactoe td {
+    height: 80px;
+    width: 80px;
+}
+
+#tictactoe tr:first-child > td {
+    border-top: none;
+}
+
+#tictactoe tr:last-child > td {
+    border-bottom: none;
+}
+
+#tictactoe tr {
+    border-right: none;
+}
+
+#tictactoe td:first-child {
+    border-left: none;
+}
+
+#tictactoe td:last-child {
+    border-right: none;
+}
+
+.playerX {
+    color: #FF0000;
+}
+
+.playerO {
+    color: #008800;
+}
+
+.ticTacToeWin {
+    margin: 0;
+    color: gold;
+    font-weight: bold;
+    text-shadow: 5px 5px 2px #7A7A7A;
+}
+table#bingo {
+    margin: 0 auto;
+}
+
+#bingo th, 
+#bingo tr, 
+#bingo td {
+    border: 1px solid black;
+}
+
+#bingo th,
+#bingo td {
+    width: 70px;
+    height: 70px;
+}
+
+#bingo th {
+    background-color: #ADD8E6;
+    font-size: 40px;
+}
+
+#free {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.filled {
+    background-color: #FF0000;
+}
+table#concentration {
+    margin: auto;
+}
+
+#concentration td {
+    background-color: #17B5D0;
+    width: 70px;
+    height: 65px;
+}
+
+#concentration .visible {
+    background-color: #FFFFFF;
+}
+
+#concentration .visible img {
+    visibility: visible;
+}
+
+#concentration .hidden {
+    color: #17B5D0;
+    background-color: #17B5D0;
+}
+
+#concentration .hidden img {
+    visibility: hidden;
+}
+
+#concentration .found {
+    color: gold;
+    background-color: white;
+    text-shadow: 5px 5px 2px #7A7A7A;
+}
+
+#orangeTimer {
+    background-color: #FF4500;
+    font-weight: bold;
+}
+
+#redTimer {
+    background-color: #FF0000;
+    font-weight: bold;
+}
+td {
+    font-size: 40px;
+}
+.gameOverBox {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 180px;
+    left: 25%;
+    box-shadow: 5px 5px 2px #CDCDCD;
+    margin: auto;
+}
+
+.gameOverBox h4 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 20px;
+    color: #867D83;
+    margin: 20px auto 5px auto;
+}
+
+.gameOverBox h2 {
+    font-size: 50px;
+    color: #FFA400;
+    text-shadow: 3px 3px 2px #A1A09C;
+    margin: 10px auto;
+}
+
+.gameOverBox p {
+    color: #867D83;
+}
+#intro {
+    padding: 250px 20px;
+}
+
+@media (max-width: 768px) {
+    #intro {
+        padding: 20px 5px;
+    }
+    nav li {
+        display: block;
+        margin-top: 2px;
+    }
+    .box {
+        width: 90%;
+        margin: 10px auto;
+        min-height: unset;
+    }
+
+    .dice {
+        margin: 10px auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+    .box {
+        width: 40%;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .dice p {
+        font-size: 100px;
+    }
+
+    #total {
+        font-size: 180px;
+    }
+}
+
+
+
+#game{
+    
+    background:#eee;      
+    
+    margin:0 auto;           
+    
+    display:block            
+    
+    }
+
+
+
+    .slot {
+        border: 3px solid gray;
+        height: 300px;
+        margin: 20px;
+      }
+      
+      .slot div {
+        height: 100%;
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+      
+      .apple {
+        background-image: url('https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-apple-fruit-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png')
+      }
+      
+      .banana {
+        background-image: url('https://img.icons8.com/emoji/48/000000/banana-emoji.png')
+      }
+      
+      .cherry {
+        background-image: url('https://img.icons8.com/clouds/100/000000/cherry.png')
+      }
+      
+      .strawberry {
+        background-image: url('https://img.icons8.com/emoji/48/000000/strawberry-emoji.png')
+      }
+      
+      .watermelon {
+        background-image: url('https://img.icons8.com/emoji/48/000000/watermelon-emoji.png')
+      }
+      
+      #stats p {
+        float: left;
+        margin-right: 20px !important;
+      }
+      
+      div h2 {
+        margin-top: 20px;
+        display: block;
+      }
+      #userautoplay { 
+        margin-top:8px;
+        font-weight:bold;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
